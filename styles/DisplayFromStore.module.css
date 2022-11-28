@@ -1,0 +1,52 @@
+.container {
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.friends {
+	height: 175px;
+	width: 225px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: scroll;
+	padding-block: 5px;
+	background-color: #ebebeb;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.title {
+	min-height: 40px;
+	width: 225px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #ebebeb;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 13px -3px,
+		rgba(0, 0, 0) 0px 0px 0px inset;
+}
+
+.counter {
+	height: 75px;
+	width: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 4px;
+	border-radius: 20px;
+	background-color: #ebebeb;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.count {
+	color: red;
+	display: inline;
+}

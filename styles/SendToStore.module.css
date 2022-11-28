@@ -1,0 +1,27 @@
+.container {
+	min-height: 25vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 100px;
+}
+
+.buttonsDiv {
+	min-height: 225px;
+	min-width: 225px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 20px;
+	padding: 5px 10px 10px 10px;
+	background-color: #ebebeb;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 2px 13px -3px,
+		rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.buttonsGroup {
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+}
