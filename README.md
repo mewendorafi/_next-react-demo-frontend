@@ -8,13 +8,13 @@ Feel free to use it & modify it as you wish.
 
 ## How to use
 
-[index.js] only renders a <Demo /> component for clarity and simplicity.
+[pages/index.js] only renders [Demo.js] component for clarity and simplicity.
 
-[Demo.js] returns two links to show a simple navigation example with Next, and the <Components> to be displayed.
+[components/Demo.js] returns [Link]s to show a navigation example with Next, as well as the components to be displayed.
 
-Components are declared in the components folder, but are imported to the [filesImport.js] file in [utils] folder for readability.
+All components are declared in the associated folder, but are imported to [utils/filesImport.js] for readability.
 
-To choose which component you want to render for your demo, go to [filesImports.js] and return it there.
+To choose which component you want to render to the screen, go to [utils/filesImports.js] and return it there.
 
 Always refer to the documentation for guidelines & best practices !
 
