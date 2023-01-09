@@ -61,7 +61,7 @@ export default function FormInputs() {
 					onChange={e => setPassword(e.target.value)}
 					ref={passwordRef}
 					className='input'
-					style={{marginBottom: 45}}
+					style={{marginBottom: 40}}
 					type='password'
 					name='password'
 				/>
