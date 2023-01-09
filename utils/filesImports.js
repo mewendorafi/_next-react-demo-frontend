@@ -5,6 +5,8 @@ import UseEffectHook from '../components/hooks/UseEffectHook.js'
 
 import ParentComponent from '../components/inverseDataFlow/ParentComponent.js'
 
+import FormInputs from '../components/forms/FormInputs.js'
+
 import ArrayState from '../components/hooks/complexState/ArrayState.js'
 import ObjectState from '../components/hooks/complexState/ObjectState.js'
 
@@ -17,7 +19,7 @@ hasn't been handled and will cause weird styling */
 export default function Components() {
 	return (
 		<>
-			<UseStateHook/>
+			<FormInputs />
 		</>
 	)
 }
